@@ -84,7 +84,7 @@ a:hover {
     float: right;
     font-size: 18px;}
 
-
+/* section in the body with profile and text */
 #about {
     margin: 50px auto; 
     width: 960px; 
@@ -150,6 +150,7 @@ footer {height:.75in;
     width: 960px; 
 }
 
+/* text area for the message box */
 textarea {
     width: 100%;
     height: 150px;
@@ -174,7 +175,7 @@ form {
 input, textarea {
     width: 100%;
 }
-
+/* the changes to the "submit" button */
 button {   background-color: #4aaaa5;
     border: none;
     color: #ffffff;
