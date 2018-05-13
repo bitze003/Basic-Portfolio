@@ -39,7 +39,7 @@ h2{
     float:left;
     color: #4aaaa5;
     background-color: #ffffff;
-    padding-bottom: 15px;
+    padding-bottom: 13px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
     font-size: 24px;
@@ -70,13 +70,14 @@ a:hover {
 #portfolio{color:#A19F9F;
      float: right;
     font-size: 18px;
+    border-right: 1px #a19f9f solid;
 
 }
 /*navigation for contact*/
 #contact{color:#A19F9F;
     float: right;
     font-size: 18px;
-
+    border-right: 1px #a19f9f solid;
 }
 /*navigation for about*/
 #index{color:#A19F9F;
@@ -84,10 +85,10 @@ a:hover {
     font-size: 18px;}
 
 
-#about {clear: both;
+#about {
     margin: 50px auto; 
     width: 960px; 
-    
+    height:800px;
 
 }
 
@@ -99,10 +100,10 @@ a {text-decoration: none;
 /*paragraph text (about me) */
 
 p  {font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    clear: both;
-    color: #777777;
+        color: #777777;
     line-height: 25px;
-    width: 960px; 
+    padding-left: 8px;
+    
     
     
 
@@ -114,6 +115,7 @@ img {
     height:2in;
     width:1.3in;
     margin-left: 26px;
+    padding-right:16px;
     
 }
 
@@ -188,6 +190,14 @@ button {   background-color: #4aaaa5;
 }
 
 /******CSS for Portfolio Page*******/
+#imagelist{
+    font-size: 0px;
+    width:500px;
+    margin: 0 auto;
+    float:left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
 
 #about2 {clear: both;
     margin: 50px auto; 
@@ -199,7 +209,6 @@ button {   background-color: #4aaaa5;
 #animals{padding-bottom: 25px;
     height:120;
     width:160;
-
 
 }
 
@@ -219,3 +228,45 @@ button {   background-color: #4aaaa5;
     height:120;
     width:160;
 }
+#animalbutton{   position: absolute;
+    top: 235px;
+    left: 196px;
+    width:160px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
+#naturebutton{   position: absolute;
+    top: 380px;
+    left: 196px;
+    width:160px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+        
+}
+
+#techbutton{position: absolute;
+    top: 380px;
+    left: 398px;
+    width:160px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    
+}
+#peoplebutton {position: absolute;
+    top: 525px;
+    left: 196px;
+    width:160px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#architecturebutton{position: absolute;
+    top: 235px;
+    left: 398px;
+    width:160px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    
+}
+
